@@ -677,7 +677,7 @@ ul.sign li a i {
 }
 
 .about_box h3 {
-     color: #0b0b0b;
+     color: #ff4205;
      font-size: 25px;
      font-weight: bold;
      padding: 0;
@@ -869,11 +869,11 @@ ul.sign li a i {
      color: white;
      font-size: 17px;
      padding: 7px 0px;
-      width: 144px;
+     width: 144px;
      margin-top: 50% !important;
      display: block;
      margin: 0 auto;
-     border: #fff solid 2px;
+     border: white solid 2px;
 }
 
 .portfolio_Carousel .carousel-indicators {
@@ -1135,7 +1135,7 @@ ul.social_icont li a {
      line-height: 28px;
      color: #383737;
      text-align: left;
-     border: #f2db18 solid 1px;
+     border: #ff4205 solid 1px;
      display: inline-block;
      margin-bottom: 30px;
 }
@@ -1180,7 +1180,7 @@ ul.social_icont li a {
 }
 
 .contact .titlepage h2 {
-     color: #0e0e0e;
+     color: #1A2B44;
 }
 
 .contact_form .contact_control {
