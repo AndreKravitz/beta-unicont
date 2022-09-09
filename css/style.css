@@ -518,7 +518,7 @@ ul.sign li a i {
 
 .banner_main {
      padding: 60px 0 0px 0;
-     background: url(../images/banner.jpg);
+     background-image: linear-gradient(0deg, rgba(165, 42, 1, 0.5), rgba(26, 43, 68, 0.5)), url(../images/mountain-bg.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
 }
@@ -1418,3 +1418,24 @@ ul.img_icon li {
 
 /** end footer **/
 
+/** floating buttons **/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFFFFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/** end floating buttons **/
