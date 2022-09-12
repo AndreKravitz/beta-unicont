@@ -518,7 +518,7 @@ ul.sign li a i {
 
 .banner_main {
      padding: 60px 0 0px 0;
-     background-image: linear-gradient(0deg, rgba(165, 42, 1, 0.5), rgba(26, 43, 68, 0.5)), url(../images/mountain-bg.jpg);
+     background-image: linear-gradient(0deg, rgba(165, 42, 1, 0.3), rgba(26, 43, 68, 0)), url(../images/mountain-bg.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
 }
