@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
@@ -118,7 +116,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #fff;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -163,7 +161,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -467,7 +465,8 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #ffffff;
-     background-color: #1B2C44;;
+     background-color: #1B2C44;
+     ;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -475,7 +474,8 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #ffffff;
-     background-color: #1B2C44;;
+     background-color: #1B2C44;
+     ;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -1419,23 +1419,41 @@ ul.img_icon li {
 /** end footer **/
 
 /** floating buttons **/
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFFFFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.wrapper {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 1000;
 }
 
-.my-float{
-	margin-top:16px;
+.wrapper a.phone {
+     height: 60px;
+     width: 60px;
+     background: #082557;
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     border-radius: 50%;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: #ff4205;
+     margin: 10px;
+}
+
+.wrapper a.wpp {
+     height: 60px;
+     width: 60px;
+     background: green;
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     border-radius: 50%;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: white;
+     margin: 10px;
 }
 
 /** end floating buttons **/
