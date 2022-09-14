@@ -1430,7 +1430,6 @@ ul.img_icon li {
      height: 60px;
      width: 60px;
      background: #082557;
-     padding: 20px;
      display: flex;
      flex-direction: row;
      border-radius: 50%;
@@ -1445,7 +1444,6 @@ ul.img_icon li {
      height: 60px;
      width: 60px;
      background: green;
-     padding: 20px;
      display: flex;
      flex-direction: row;
      border-radius: 50%;
@@ -1456,4 +1454,13 @@ ul.img_icon li {
      margin: 10px;
 }
 
+.logo-wpp{
+     height: 60px;
+     width: 60px;
+}
+
+.logo-phone{
+     height: 35px;
+     width: 35px;
+}
 /** end floating buttons **/
